@@ -9,7 +9,7 @@
 
 ## Universally Supported HTML Tags and Attributes
 
-| HTML Tag | Attributes ( Universally Supported ) |
+| HTML Tag | Attributes (Universally Supported) |
 | -------- | ------------------------------------ |
 | a        | class, href, id, style, target |
 | b        | class, id, style |
@@ -38,7 +38,7 @@
 | u        | class, id, style |
 | ul       | class, dir, id, style |
 
-** The above table content listed alphabetically.
+_** The above table content listed alphabetically._
 
 ## Universally Supported CSS Properties (Inline Only)
 
@@ -88,7 +88,7 @@
 | text-transform |
 | vertical-align |
 
-** The above table content listed alphabetically.
+_** The above table content listed alphabetically._
 
 ## References
 
@@ -96,6 +96,7 @@
 - https://reallygoodemails.com/
 - https://www.pinpointe.com/blog/email-campaign-html-and-css-support
 - https://sendpulse.com/knowledge-base/email-service/email-create/list-supported-css-html-attributes
+- https://www.intercom.com/help/en/articles/245-a-guide-to-creating-html-emails
 - https://www.outlook-apps.com/html-ignored-by-outlook/
 - https://developers.google.com/gmail/design/css
 - https://developers.google.com/gmail/design/reference/supported_css
