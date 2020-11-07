@@ -9,10 +9,10 @@
 
 ## DOM Properties and Methods:
 
-window
-window.scrollY
-window.innerHeight
-Element.getBoundingClientRect
-Element.offsetTop
-Element.offsetHeight 
-Element.scrollTop
+- window
+- window.scrollY
+- window.innerHeight
+- Element.getBoundingClientRect
+- Element.offsetTop
+- Element.offsetHeight 
+- Element.scrollTop
