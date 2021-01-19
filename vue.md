@@ -19,6 +19,27 @@
 
 _More on directives - https://vuejs.org/v2/api/#Directives_
 
+## VUEX Terms:
+
+- **State** - App-level state/data (todos, notes, posts, etc)
+- **Getters** - Get pieces of state or computed values from state
+- **Actions** - Called from components to commit a mutation
+- **Mutations** - Mutate/Change the state
+- **Mutations** - Mutate/Change the state (update data, etc)
+- **Modules** - Each module can have it's own state, getters, actions, and mutations (todos module, notes module, etc)
+
+## VUEX Flow of Data:
+
+1. Components dispatches actions.
+
+2. Actions calls api functions (defined in src/services/api directory) which creates http requests and returns response.
+
+3. Then Vuex action function calls appropriate mutation function with that response data. 
+
+4. Then Vuex mutation function mutates the state.
+
+5. Then on state change the DOM gets updated and rerender the view.
+
 ## VUEX Notes:
 
 - Vuex mutation functions mutate the state and can only do synchronous tasks.
@@ -30,13 +51,3 @@ _More on directives - https://vuejs.org/v2/api/#Directives_
 - We can invoke/call a action function using store/$store/context.dispatch() method.
 
 - Both mutation and action functions can take payload.
-
-## VUEX Flow of Data:
-
-1. Vuex action function calls api function (defined in src/services/api directory) which creates http request and returns response. 
-
-2. Then Vuex action function calls appropriate mutation function with that response data. 
-
-3. Then Vuex mutation function mutate the state.
-
-4. Then on state change the DOM gets updated and rerender the view.
